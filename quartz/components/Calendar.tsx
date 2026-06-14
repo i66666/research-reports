@@ -70,7 +70,7 @@ export default ((userOpts?: Partial<Options>) => {
       const isToday = dateStr === `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`
       
       if (hasContent) {
-        const href = resolveRelative(fileData.slug!, dateStr as FullSlug)
+        const href = resolveRelative(fileData.slug!, `${dateStr}/` as FullSlug)
         cells.push(
           <a href={href} class={`calendar-day has-content${isToday ? ' today' : ''}`}>
             <span class="day-num">{day}</span>
