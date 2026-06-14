@@ -16,6 +16,7 @@ import Footer from "./Footer"
 import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
+import Calendar from "./Calendar"
 
 export {
   ArticleTitle,
@@ -36,4 +37,5 @@ export {
   DesktopOnly,
   MobileOnly,
   RecentNotes,
+  Calendar,
 }
