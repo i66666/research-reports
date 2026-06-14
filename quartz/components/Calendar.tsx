@@ -1,5 +1,5 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { FullSlug, resolveRelative } from "../util/path"
+import { FullSlug } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import style from "./styles/calendar.scss"
 import { JSX } from "preact"
@@ -68,7 +68,7 @@ export default ((userOpts?: Partial<Options>) => {
       if (isToday) cellClass += " cal-today"
 
       if (hasContent) {
-        const href = resolveRelative(fileData.slug!, `${dateStr}/` as FullSlug)
+        const href = `#date-${dateStr}`
         cells.push(
           <td class={cellClass}>
             <a href={href} class="cal-link">{day}</a>
