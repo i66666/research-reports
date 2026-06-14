@@ -1,6 +1,6 @@
 .calendar-widget {
   & > h3 {
-    margin: 0.5rem 0 0.5rem 0;
+    margin: 0.5rem 0;
     font-size: 1rem;
   }
 }
@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .cal-nav-btn {
@@ -17,85 +17,88 @@
   border: 1px solid var(--lightgray);
   border-radius: 4px;
   cursor: pointer;
-  padding: 2px 8px;
-  font-size: 0.75rem;
+  padding: 1px 6px;
+  font-size: 0.7rem;
   color: var(--darkgray);
+  line-height: 1.2;
   &:hover {
     background: var(--lightgray);
   }
 }
 
 .cal-month-label {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: var(--dark);
 }
 
-.calendar-grid {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 2px;
+.calendar-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: 0;
+  
+  .cal-th {
+    text-align: center;
+    font-size: 0.6rem;
+    color: var(--gray);
+    font-weight: 600;
+    padding: 2px 0;
+    border: none;
+  }
+}
+
+.cal-cell {
   text-align: center;
+  vertical-align: middle;
+  padding: 0;
+  border: none;
+  height: 28px;
+  
+  &.cal-empty {
+    color: var(--gray);
+    opacity: 0.3;
+  }
 }
 
-.calendar-weekday {
-  font-size: 0.65rem;
+.cal-num {
+  font-size: 0.75rem;
   color: var(--gray);
-  padding: 3px 0;
-  font-weight: 600;
 }
 
-.calendar-day {
-  aspect-ratio: 1;
+.cal-link {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 4px;
-  font-size: 0.8rem;
+  width: 100%;
+  height: 100%;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--dark);
   text-decoration: none;
-  position: relative;
-
-  &.empty {
-    color: var(--gray);
-    opacity: 0.4;
-    cursor: default;
+  border-radius: 4px;
+  background: var(--highlight);
+  
+  &:hover {
+    background: var(--secondary);
+    color: white !important;
   }
+}
 
-  &.has-content {
+.cal-today {
+  .cal-num {
+    font-weight: 700;
     color: var(--dark);
-    font-weight: 600;
-    cursor: pointer;
-    background: var(--highlight);
-    &:hover {
-      background: var(--secondary);
-      color: white;
-      .day-dot { color: white; }
-    }
   }
-
-  &.today {
-    border: 1.5px solid var(--secondary);
-    &.has-content {
-      background: rgba(40, 75, 99, 0.15);
-    }
-  }
-
-  .day-num {
-    line-height: 1;
-  }
-
-  .day-dot {
-    font-size: 0.35rem;
-    color: var(--secondary);
-    line-height: 1;
-    margin-top: 1px;
+  
+  &.cal-has .cal-link {
+    box-shadow: inset 0 0 0 1.5px var(--secondary);
   }
 }
 
 .calendar-count {
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   color: var(--gray);
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
   text-align: center;
 }
