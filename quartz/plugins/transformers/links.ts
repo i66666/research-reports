@@ -50,11 +50,17 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options> | undefined> =
                 typeof node.properties.href === "string"
               ) {
                 let dest = node.properties.href as RelativeURL
+                const external = isAbsoluteUrl(dest)
                 node.properties.className ??= []
-                node.properties.className.push(isAbsoluteUrl(dest) ? "external" : "internal")
+                node.properties.className.push(external ? "external" : "internal")
+
+                if (external) {
+                  node.properties.target = "_blank"
+                  node.properties.rel = "noopener noreferrer"
+                }
 
                 // don't process external links or intra-document anchors
-                if (!(isAbsoluteUrl(dest) || dest.startsWith("#"))) {
+                if (!(external || dest.startsWith("#"))) {
                   dest = node.properties.href = transformLink(
                     file.data.slug!,
                     dest,
