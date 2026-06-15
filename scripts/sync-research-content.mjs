@@ -111,7 +111,7 @@ function ensureUnique(name, used) {
 function normalizeMarkdown(text, title, date) {
   const { body } = parseFrontmatter(text)
   const cleanedBody = body
-    .replace(/^\s*> 来源：知识星球「调研纪要」\s*\r?\n+/g, "")
+    .replace(/^\s*> 来源：知识星球「调研纪要」\s*$/gm, "")
     .trimEnd()
   return `---\ntitle: "${title.replace(/"/g, '\\"')}"\ndate: ${date}\ntags: [调研纪要]\n---\n\n> 来源：知识星球「调研纪要」\n\n${cleanedBody}\n`
 }
