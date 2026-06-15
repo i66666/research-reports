@@ -11,7 +11,7 @@ tags: [AI, 半导体, 机器人]
 
 ## 论据与数据
 - 月之暗面再度融资20亿美元，估值飙升至300亿
-- [礼物]【腾讯文档，持续更新】【中信互联网】AI大事纪（<e type="web" href="https%3A%2F%2Fdocs.qq.com%2Fdoc%2FDWUx5dEpwUmZEcGpR" title="%E3%80%90%E4%B8%AD%E4%BF%A1%E4%BA%92%E8%81%94%E7%BD%91%E3%80%91AI%E5%A4%A7%E4%BA%8B%E7%BA%AA%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89" />）
+- [礼物]【腾讯文档，持续更新】【中信互联网】AI大事纪（[%E3%80%90%E4%B8%AD%E4%BF%A1%E4%BA%92%E8%81%94%E7%BD%91%E3%80%91AI%E5%A4%A7%E4%BA%8B%E7%BA%AA%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89](https://docs.qq.com/doc/DWUx5dEpwUmZEcGpR)）
 - [咖啡]模型调用：根据OpenRouter，截至6月8日，google/anthropic/openai/deepseek/minimax/qwen/xiaomi/tencent/others的模型调用份额分别为10%/16%/7%/17%/10%/3%/9%/10%/17%
 - [咖啡]DAU：根据极光数据，截至6月9日，豆包/ DeepSeek/文小言/通义千问/夸克/智谱清言/腾讯元宝/QQ浏览器/灵光/星野的DAU分别为13639/1877/31/1780/4057/17/3226/6310/10/480万人
 
