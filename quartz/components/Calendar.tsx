@@ -71,7 +71,7 @@ export default ((userOpts?: Partial<Options>) => {
         const href = `/research-reports/#date-${dateStr}`
         cells.push(
           <td class={cellClass}>
-            <a href={href} class="cal-link">{day}</a>
+            <a href={href} class="cal-link" onClick={(e) => { e.preventDefault(); window.location.href = href; }}>{day}</a>
           </td>
         )
       } else {
