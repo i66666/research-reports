@@ -68,7 +68,7 @@ export default ((userOpts?: Partial<Options>) => {
       if (isToday) cellClass += " cal-today"
 
       if (hasContent) {
-        const href = `#date-${dateStr}`
+        const href = `/research-reports/#date-${dateStr}`
         cells.push(
           <td class={cellClass}>
             <a href={href} class="cal-link">{day}</a>
