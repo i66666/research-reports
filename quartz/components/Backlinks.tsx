@@ -12,7 +12,12 @@ function Backlinks({ fileData, allFiles }: QuartzComponentProps) {
         {backlinkFiles.length > 0 ? (
           backlinkFiles.map((f) => (
             <li>
-              <a href={resolveRelative(fileData.slug!, f.slug!)} class="internal">
+              <a
+                href={resolveRelative(fileData.slug!, f.slug!)}
+                class="internal"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {f.frontmatter?.title}
               </a>
             </li>

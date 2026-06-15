@@ -40,7 +40,12 @@ export default ((userOpts?: Partial<Options>) => {
                 <div class="section">
                   <div class="desc">
                     <h3>
-                      <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
+                      <a
+                        href={resolveRelative(fileData.slug!, page.slug!)}
+                        class="internal"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {title}
                       </a>
                     </h3>
@@ -56,6 +61,8 @@ export default ((userOpts?: Partial<Options>) => {
                         <a
                           class="internal tag-link"
                           href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
+                          target="_blank"
+                          rel="noopener noreferrer"
                         >
                           #{tag}
                         </a>
