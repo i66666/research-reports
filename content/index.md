@@ -14,7 +14,7 @@ tags: [索引]
 
 ### [[2026-06-15/|2026年6月15日]] — 75篇研报
 
-<details>
+<details open>
 <summary><b>🤖 AI大模型与出口管制</b>（29篇）</summary>
 
 - [[2026-06-15/1.-海峡放开-=-2020-...]]
@@ -49,7 +49,7 @@ tags: [索引]
 
 </details>
 
-<details>
+<details open>
 <summary><b>💻 算力芯片与基础设施</b>（2篇）</summary>
 
 - [[2026-06-15/【DSP】--1）Marvel...]]
@@ -57,7 +57,7 @@ tags: [索引]
 
 </details>
 
-<details>
+<details open>
 <summary><b>🔗 光通信与CPO</b>（5篇）</summary>
 
 - [[2026-06-15/#信德新材-光纤行业专家调研反...]]
@@ -68,7 +68,7 @@ tags: [索引]
 
 </details>
 
-<details>
+<details open>
 <summary><b>🔌 AI硬件与材料</b>（6篇）</summary>
 
 - [[2026-06-15/【PTFE】--1）PTFE具...]]
@@ -80,7 +80,7 @@ tags: [索引]
 
 </details>
 
-<details>
+<details open>
 <summary><b>💾 半导体与存储</b>（2篇）</summary>
 
 - [[2026-06-15/❗❗【强推中船特气-10】六氟...]]
@@ -88,7 +88,7 @@ tags: [索引]
 
 </details>
 
-<details>
+<details open>
 <summary><b>🧪 特种气体与周期化工</b>（4篇）</summary>
 
 - [[2026-06-15/【DB­ZQ】六氟化钨最新交流...]]
@@ -98,7 +98,7 @@ tags: [索引]
 
 </details>
 
-<details>
+<details open>
 <summary><b>📊 策略与宏观</b>（7篇）</summary>
 
 - [[2026-06-15/【华泰金融周核心】看好金融战略...]]
@@ -111,7 +111,7 @@ tags: [索引]
 
 </details>
 
-<details>
+<details open>
 <summary><b>🛒 消费与零售</b>（3篇）</summary>
 
 - [[2026-06-15/【浙商消费】泡泡玛特世界杯热度...]]
@@ -120,35 +120,35 @@ tags: [索引]
 
 </details>
 
-<details>
+<details open>
 <summary><b>🔋 新能源与锂电</b>（1篇）</summary>
 
 - [[2026-06-15/【碳酸锂】---1）当前市场总...]]
 
 </details>
 
-<details>
+<details open>
 <summary><b>💊 医药健康</b>（1篇）</summary>
 
 - [[2026-06-15/【兴证医药】AbbVie公布E...]]
 
 </details>
 
-<details>
+<details open>
 <summary><b>🚀 商业航天与军工</b>（1篇）</summary>
 
 - [[2026-06-15/【东北电子】SpaceX带动商...]]
 
 </details>
 
-<details>
+<details open>
 <summary><b>🏭 工业与制造</b>（1篇）</summary>
 
 - [[2026-06-15/🚩【长城机械】我们下午的深海油...]]
 
 </details>
 
-<details>
+<details open>
 <summary><b>📌 其他</b>（13篇）</summary>
 
 - [[2026-06-15/「文件」]]
@@ -175,7 +175,7 @@ tags: [索引]
 
 ### [[2026-06-14/|2026年6月14日]] — 71篇研报
 
-<details>
+<details open>
 <summary><b>🤖 AI大模型与出口管制</b>（36篇）</summary>
 
 - [[2026-06-14/#Fable-5封禁-GLM-...]]
@@ -217,14 +217,14 @@ tags: [索引]
 
 </details>
 
-<details>
+<details open>
 <summary><b>🔗 光通信与CPO</b>（1篇）</summary>
 
 - [[2026-06-14/光互联下一个超级版块—MPO布...]]
 
 </details>
 
-<details>
+<details open>
 <summary><b>🔌 AI硬件与材料</b>（5篇）</summary>
 
 - [[2026-06-14/【天风电新】PCB及载板市值空...]]
@@ -235,7 +235,7 @@ tags: [索引]
 
 </details>
 
-<details>
+<details open>
 <summary><b>💾 半导体与存储</b>（7篇）</summary>
 
 - [[2026-06-14/❗【新恒汇】半导体引线框国内龙...]]
@@ -248,14 +248,14 @@ tags: [索引]
 
 </details>
 
-<details>
+<details open>
 <summary><b>🧪 特种气体与周期化工</b>（1篇）</summary>
 
 - [[2026-06-14/#油运超级周期-#扬帆起航--...]]
 
 </details>
 
-<details>
+<details open>
 <summary><b>📊 策略与宏观</b>（8篇）</summary>
 
 - [[2026-06-14/⏯【浙商宏观--李超-林成炜】...]]
@@ -269,7 +269,7 @@ tags: [索引]
 
 </details>
 
-<details>
+<details open>
 <summary><b>🛒 消费与零售</b>（5篇）</summary>
 
 - [[2026-06-14/[太阳]CT食饮周观点-底部价...]]
@@ -280,7 +280,7 @@ tags: [索引]
 
 </details>
 
-<details>
+<details open>
 <summary><b>💊 医药健康</b>（2篇）</summary>
 
 - [[2026-06-14/【中泰医药】三重共振！创新药估...]]
@@ -288,21 +288,21 @@ tags: [索引]
 
 </details>
 
-<details>
+<details open>
 <summary><b>📱 互联网与AI应用</b>（1篇）</summary>
 
 - [[2026-06-14/彭博-蚂蚁集团正为其超级应用支...]]
 
 </details>
 
-<details>
+<details open>
 <summary><b>🏭 工业与制造</b>（1篇）</summary>
 
 - [[2026-06-14/🚩【长城机械-邓宇亮】博迈科-...]]
 
 </details>
 
-<details>
+<details open>
 <summary><b>📌 其他</b>（4篇）</summary>
 
 - [[2026-06-14/【华创交运-航空日度观察】6月...]]
