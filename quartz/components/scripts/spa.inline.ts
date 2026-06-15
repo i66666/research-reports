@@ -26,6 +26,7 @@ const getOpts = ({ target }: Event): { url: URL; scroll?: boolean } | undefined 
   const a = target.closest("a")
   if (!a) return
   if ("routerIgnore" in a.dataset) return
+  if (a.target && a.target !== "_self") return
   const { href } = a
   if (!isLocalUrl(href)) return
   return { url: new URL(href), scroll: "routerNoscroll" in a.dataset ? false : undefined }
