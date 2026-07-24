@@ -1,7 +1,7 @@
 ---
 title: "AI应用走到哪里了 https..."
 date: 2026-07-23
-tags: [其他]
+tags: ["AI\u4e0e\u79d1\u6280"]
 ---
 
 > 来源：知识星球「调研纪要」
@@ -13,7 +13,8 @@ AI应用走到哪里了 [https%3A%2F%2Fshare.note.youdao.com%2Fynoteshare%2Finde
 
 ## 投资逻辑
 
-关注行业基本面变化与潜在投资机会。
+（待补充）
 
 ## 风险提示
+
 暂无
